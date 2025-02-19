@@ -1,0 +1,22 @@
+{
+  "name": "09y12/informatik-1",
+  "description": "Informatik Grundlagen 1",
+  "type": "project",
+  "license": "LGPL-2.1-or-later",
+  "authors": [
+    {
+      "name": "AG Informatik",
+      "email": "123292918+treptowkolleg@users.noreply.github.com",
+      "homepage": "https://it.wagnerpictures.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\" : "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "twig/twig": "^3.20"
+  }
+}

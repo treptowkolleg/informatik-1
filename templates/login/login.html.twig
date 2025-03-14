@@ -1,0 +1,26 @@
+{% extends "base.html.twig" %}
+
+
+
+{% block body %}
+    <h1>Anmelden</h1>
+
+    <form method="POST">
+        <label>
+            Benutzername
+            <input type="text" name="username" placeholder="Benutzername" required>
+        </label>
+        <label>
+            Passwort
+            <input type="password" name="password" placeholder="Passwort" required>
+        </label>
+        <button type="submit">Anmelden</button>
+    </form>
+
+    <ul>
+        {% for element, value in post %}
+            <li><b>{{ element }}:</b> {{ value }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

@@ -1,0 +1,21 @@
+
+.navbar {
+    display: flex;
+    padding: 0;
+}
+
+.navbar > li {
+    display: inline-block;
+}
+
+.navbar > li > a {
+    display: block;
+    padding: .5rem 1rem;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.navbar > li > a:hover {
+    background-color: #ededed;
+}
